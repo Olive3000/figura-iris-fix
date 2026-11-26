@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "package": "fix.figurairis.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "IrisCompatMixin",
+    "WorldRenderPipelinesMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

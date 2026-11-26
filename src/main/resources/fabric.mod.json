@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "figura_iris_fix",
+  "version": "${version}",
+  "name": "Figura Iris Fix",
+  "description": "Fixes NoFigura parts turning transparent/invisible with Iris shaders by registering Figura's dynamic render pipelines with Iris.",
+  "authors": ["community"],
+  "license": "MIT",
+  "environment": "client",
+  "depends": {
+    "java": ">=25",
+    "minecraft": "26.3",
+    "fabricloader": ">=0.15",
+    "figura": "*"
+  },
+  "mixins": [
+    { "config": "figura_iris_fix.mixins.json", "environment": "client" }
+  ]
+}
